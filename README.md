@@ -1,4 +1,4 @@
-# Christmas Celebration 2024 - Food Coupon Validator 🎄🎟️
+# 🎟️🎄 Christmas Celebration 2024 - Food Coupon Validator 🎄🎟️
 
 A simple, efficient, and secure web application designed to validate food coupons for the 2024 Christmas Celebration. This app streamlines the process of verifying and managing food coupons to ensure a seamless festive experience. 
 

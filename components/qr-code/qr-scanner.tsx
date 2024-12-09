@@ -38,9 +38,9 @@ const QrScanner = () => {
         config,
         (decodedText) => {
           console.log("QR Code detected:", decodedText);
-          // alert(`QR Code detected: ${decodedText}`);
-          router.push(`/details/${decodedText}`); // Redirect to details page
           stopScanning(); // Optionally stop scanning after detection
+          alert(`QR Code detected: ${decodedText}`);
+          router.push(`/details/${decodedText}`); // Redirect to details page
         },
         (error) => {
           console.warn("QR Code scan error:", error);
